@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FAQ Slider</title>
+    <title>Jquery Thumbslider</title>
     <link rel="stylesheet" href="css/style.css"/>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="js/app.js"></script>
@@ -10,30 +10,39 @@
 <body>
 
 <div id="container">
-    <h1>Jquery FAQ Slider</h1>
-    <div class="title">
-       <h3> Faq Slider using jquery</h3>
+    <div id="slider">
+        <header>
+            <h3>jQuery Thumbslider</h3>
+        </header>
+        <div id="slides">
+            <div class="slide"><img src="img/amazon.jpg" width="275" height="250"></div>
+            <div class="slide"><img src="img/Abstract_Blank_Sign.jpg" width="275" height="250"></div>
+            <div class="slide"><img src="img/apple-macbook-pro.jpg" width="275" height="250"></div>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li class="sep"></li>
+                <li class="product">
+                    <a href="">
+                        <img src="img/amazon_thumbnail.jpg" alt="thumbnail"/>
+                    </a>
+                </li>
+
+                <li class="product">
+                    <a href="">
+                        <img src="img/Abstract_Blank_Sign_thumbnail.jpg" alt="thumbnail"/>
+                    </a>
+                </li>
+
+                <li class="product">
+                    <a href="">
+                        <img src="img/apple-macbook-pro-thumbnail.jpg" alt="thumbnail"/>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
     </div>
-    <ul class="faq">
-        <li class="q"><img src="img/right.png" />How was your day?</li>
-        <li class="a">Great, thanks!</li>
-
-        <li class="q"><img src="img/right.png" />How was your day?</li>
-        <li class="a">Great, thanks!</li>
-
-        <li class="q"><img src="img/right.png" />How was your day?</li>
-        <li class="a">Great, thanks!</li>
-
-        <li class="q"><img src="img/right.png" />How was your day?</li>
-        <li class="a">Great, thanks!</li>
-
-        <li class="q"><img src="img/right.png" />How was your day?</li>
-        <li class="a">Great, thanks!</li>
-
-        <li class="q"><img src="img/right.png" />How was your day?</li>
-        <li class="a">Great, thanks!</li>
-    </ul>
-
 </div>
 
 </body>
